@@ -1,0 +1,85 @@
+/**
+ * Pages Signin (Type 1), Signup
+ */
+/* Sign In, Forgot Password, Register Pages */
+
+
+.main-btn{
+  background: #008080 none repeat scroll 0 0;
+  border: 1px solid #006666;
+  border-radius: 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 21px;
+  border-radius: 3px !important;
+  padding: 6px 15px;
+  transition: all 500ms ease 0s;
+  margin-bottom:7px;
+} 
+
+.main-btn:hover, .main-btn:focus, .main-btn:active{
+  background:#006666;
+  color:#fff;
+  border: 1px solid #008080;
+}
+
+
+
+
+.standalone-page {
+  margin: 95px auto 103px;
+  max-width: 380px;
+}
+.standalone-page.registration-page {
+  margin: 46px auto 20px;
+}
+.standalone-page .standalone-page-logo {
+  text-align: center;
+  padding:10px 0px 3px 0px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+.standalone-page .standalone-page-top-border {
+  margin: 5px 0 0;
+}
+.standalone-page .standalone-page-block {
+  background: #ffffff;
+  padding: 20px;
+  margin: 0;
+  -moz-border-radius: 0 0 5px 5px !important;
+  -webkit-border-radius: 0 0 5px 5px !important;
+  border-radius: 0 0 5px 5px !important;
+  -webkit-box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2) !important;
+  -moz-box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2) !important;
+}
+.standalone-page .standalone-page-block .heading {
+  margin: auto auto 25px auto;
+}
+.standalone-page .standalone-page-block .heading .icon {
+  float: left;
+  line-height: 1.3;
+}
+.standalone-page .standalone-page-block .heading .main-text {
+  display: block;
+  margin-left: 40px;
+}
+.standalone-page.standalone-page-block .login-form .form-group {
+  margin-bottom: 10px;
+}
+.standalone-page .standalone-page-block .login-form .form-group:last-child {
+  margin-bottom: 0;
+}
+.standalone-page .standalone-page-block .login-form.form-horizontal .form-group .checkbox {
+  padding-top: 0;
+}
+.standalone-page .standalone-page-block .change-section {
+  margin-top: 2px;
+  padding-top: 5px;
+  border-top: 1px solid #cccccc;
+  text-align: center;
+}
+.standalone-page .standalone-page-block .change-section .heading {
+  margin: 5px 0;
+}
